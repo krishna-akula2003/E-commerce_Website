@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-top: 50px;
+    margin-bottom: 60px;
+    background-image:url('PHP_2.jpg') ;
+    background-size: cover;
+    background-position: center;
+}
+.rr{
+    color:blueviolet;
+    background-color:whitesmoke;
+    border-radius: 10px;
+    opacity: 0.8;
+}

@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: purple;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+}
+
+section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    line-height: 1.5;
+}
+
+#contact-info {
+    background-color: #f9f9f9;
+}
+
+@media (max-width: 600px) {
+    section {
+        padding: 10px;
+    }
+}
+/* cart.css */
+
+/* Add color styles to the Home link */
+.home {
+    color: #007BFF; /* Set your desired color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make the text bold if you like */
+}
+
+/* Add a hover effect to the Home link */
+.home:hover {
+    color: #0056b3; /* Change color on hover */
+}

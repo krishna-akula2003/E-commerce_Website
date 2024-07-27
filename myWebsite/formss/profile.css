@@ -1,0 +1,38 @@
+/* Reset some default styles */
+body, h1, p, div {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+}
+
+/* Center the container */
+.container {
+    text-align: center;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the strong tags inside the container */
+.container strong {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Style the email, mobile, pincode, and address separately */
+.container strong:nth-child(odd) {
+    color: #333;
+}
+
+.container strong:nth-child(even) {
+    color: #555;
+}

@@ -1,0 +1,53 @@
+/* cart.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color:wheat;
+    color: black;
+    padding: 1em;
+    text-align: center;
+}
+
+#cart {
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#cart h2 {
+    border-bottom:wheat;
+    padding-bottom: 5px;
+}
+
+#cart-items {
+    list-style: none;
+    padding: 0;
+}
+
+#cart-items div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between; /* To align items and button on the same row */
+}
+
+#cart-items img {
+    width: 150px;
+    margin-right: 1px;
+}
+
+#cart-items button {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    margin-top: 80px;
+    margin-bottom: 80px;
+     /* Adjust padding to change button size */
+    cursor: pointer;
+}
